@@ -1,5 +1,5 @@
 const http = require('http');
-const port = 80; // Change to 80 if you want to use the default HTTP port
+const port = 8080; // Change to 80 if you want to use the default HTTP port
 
 const requestHandler = (request, response) => {
   response.end('Hello, World!');
